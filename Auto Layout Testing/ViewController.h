@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *textBox1;
+@property (strong, nonatomic) IBOutlet UITextField *textBox2;
+@property (strong, nonatomic) IBOutlet UILabel *resultLabel;
+
+- (IBAction)buttonClick:(UIButton *)sender;
 
 
 @end

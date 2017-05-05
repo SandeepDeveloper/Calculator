@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9262DEB01EBBA5070028F0D6 /* 5qpCgVq.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9262DEAF1EBBA5070028F0D6 /* 5qpCgVq.jpg */; };
+		9262DEB21EBBBF270028F0D6 /* Blackvariant-Shadow135-System-Calculator.ico in Resources */ = {isa = PBXBuildFile; fileRef = 9262DEB11EBBBF270028F0D6 /* Blackvariant-Shadow135-System-Calculator.ico */; };
+		9262DEB41EBBBF2B0028F0D6 /* 2880x1800-dark-spring-green-solid-color-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9262DEB31EBBBF2B0028F0D6 /* 2880x1800-dark-spring-green-solid-color-background.jpg */; };
+		92B5AD511EB0F38300F21175 /* Light-Plain-Brown-Background-EPS-Format.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92B5AD501EB0F38300F21175 /* Light-Plain-Brown-Background-EPS-Format.jpg */; };
+		92B5AD561EB0F70C00F21175 /* substractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5AD551EB0F70C00F21175 /* substractionViewController.m */; };
+		92B5AD591EB111A600F21175 /* DivisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5AD581EB111A600F21175 /* DivisionViewController.m */; };
+		92B5AD5C1EB1130A00F21175 /* MultiplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B5AD5B1EB1130A00F21175 /* MultiplicationViewController.m */; };
 		92F4E5941EB0ACFC00848338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F4E5931EB0ACFC00848338 /* main.m */; };
 		92F4E5971EB0ACFC00848338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F4E5961EB0ACFC00848338 /* AppDelegate.m */; };
 		92F4E59A1EB0ACFC00848338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F4E5991EB0ACFC00848338 /* ViewController.m */; };
@@ -35,6 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9262DEAF1EBBA5070028F0D6 /* 5qpCgVq.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5qpCgVq.jpg; sourceTree = "<group>"; };
+		9262DEB11EBBBF270028F0D6 /* Blackvariant-Shadow135-System-Calculator.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Blackvariant-Shadow135-System-Calculator.ico"; sourceTree = "<group>"; };
+		9262DEB31EBBBF2B0028F0D6 /* 2880x1800-dark-spring-green-solid-color-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2880x1800-dark-spring-green-solid-color-background.jpg"; sourceTree = "<group>"; };
+		92B5AD501EB0F38300F21175 /* Light-Plain-Brown-Background-EPS-Format.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Light-Plain-Brown-Background-EPS-Format.jpg"; sourceTree = "<group>"; };
+		92B5AD541EB0F70C00F21175 /* substractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = substractionViewController.h; sourceTree = "<group>"; };
+		92B5AD551EB0F70C00F21175 /* substractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = substractionViewController.m; sourceTree = "<group>"; };
+		92B5AD571EB111A600F21175 /* DivisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DivisionViewController.h; path = ../DivisionViewController.h; sourceTree = "<group>"; };
+		92B5AD581EB111A600F21175 /* DivisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DivisionViewController.m; path = ../DivisionViewController.m; sourceTree = "<group>"; };
+		92B5AD5A1EB1130A00F21175 /* MultiplicationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplicationViewController.h; sourceTree = "<group>"; };
+		92B5AD5B1EB1130A00F21175 /* MultiplicationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplicationViewController.m; sourceTree = "<group>"; };
 		92F4E58F1EB0ACFC00848338 /* Auto Layout Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout Testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F4E5931EB0ACFC00848338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92F4E5951EB0ACFC00848338 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,8 +123,18 @@
 				92F4E5981EB0ACFC00848338 /* ViewController.h */,
 				92F4E5991EB0ACFC00848338 /* ViewController.m */,
 				92F4E59B1EB0ACFC00848338 /* Main.storyboard */,
+				92B5AD571EB111A600F21175 /* DivisionViewController.h */,
+				92B5AD581EB111A600F21175 /* DivisionViewController.m */,
+				92B5AD5A1EB1130A00F21175 /* MultiplicationViewController.h */,
+				92B5AD5B1EB1130A00F21175 /* MultiplicationViewController.m */,
+				92B5AD541EB0F70C00F21175 /* substractionViewController.h */,
+				92B5AD551EB0F70C00F21175 /* substractionViewController.m */,
 				92F4E59E1EB0ACFC00848338 /* Assets.xcassets */,
+				9262DEB31EBBBF2B0028F0D6 /* 2880x1800-dark-spring-green-solid-color-background.jpg */,
+				9262DEB11EBBBF270028F0D6 /* Blackvariant-Shadow135-System-Calculator.ico */,
 				92F4E5A01EB0ACFC00848338 /* LaunchScreen.storyboard */,
+				92B5AD501EB0F38300F21175 /* Light-Plain-Brown-Background-EPS-Format.jpg */,
+				9262DEAF1EBBA5070028F0D6 /* 5qpCgVq.jpg */,
 				92F4E5A31EB0ACFC00848338 /* Info.plist */,
 				92F4E5921EB0ACFC00848338 /* Supporting Files */,
 			);
@@ -246,9 +273,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B5AD511EB0F38300F21175 /* Light-Plain-Brown-Background-EPS-Format.jpg in Resources */,
 				92F4E5A21EB0ACFC00848338 /* LaunchScreen.storyboard in Resources */,
 				92F4E59F1EB0ACFC00848338 /* Assets.xcassets in Resources */,
+				9262DEB21EBBBF270028F0D6 /* Blackvariant-Shadow135-System-Calculator.ico in Resources */,
 				92F4E59D1EB0ACFC00848338 /* Main.storyboard in Resources */,
+				9262DEB41EBBBF2B0028F0D6 /* 2880x1800-dark-spring-green-solid-color-background.jpg in Resources */,
+				9262DEB01EBBA5070028F0D6 /* 5qpCgVq.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +306,10 @@
 			files = (
 				92F4E59A1EB0ACFC00848338 /* ViewController.m in Sources */,
 				92F4E5971EB0ACFC00848338 /* AppDelegate.m in Sources */,
+				92B5AD591EB111A600F21175 /* DivisionViewController.m in Sources */,
 				92F4E5941EB0ACFC00848338 /* main.m in Sources */,
+				92B5AD5C1EB1130A00F21175 /* MultiplicationViewController.m in Sources */,
+				92B5AD561EB0F70C00F21175 /* substractionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Auto Layout Testing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ALT.Auto-Layout-Testing";
+				PRODUCT_BUNDLE_IDENTIFIER = CMK.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,7 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Auto Layout Testing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ALT.Auto-Layout-Testing";
+				PRODUCT_BUNDLE_IDENTIFIER = CMK.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -507,6 +541,7 @@
 				92F4E5BE1EB0ACFC00848338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92F4E5BF1EB0ACFC00848338 /* Build configuration list for PBXNativeTarget "Auto Layout TestingTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +550,7 @@
 				92F4E5C11EB0ACFC00848338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92F4E5C21EB0ACFC00848338 /* Build configuration list for PBXNativeTarget "Auto Layout TestingUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +559,7 @@
 				92F4E5C41EB0ACFC00848338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

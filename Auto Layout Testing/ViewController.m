@@ -26,4 +26,15 @@
 }
 
 
+- (IBAction)buttonClick:(UIButton *)sender {
+    int firstValue = [self.textBox1.text intValue];
+    int secondValue = [self.textBox2.text intValue];
+    self.resultLabel.text = [NSString stringWithFormat:@"%d",firstValue + secondValue];
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.textBox1 resignFirstResponder];
+    [self.textBox2 resignFirstResponder];
+}
 @end
